@@ -1,0 +1,20 @@
+{{page-title "EmberMealPlannerPrototype"}}
+
+<header class="es-header">
+  <div class="logo">
+    <div class="logo-icon">🥗</div>
+    <a>Ember Meal Plans</a>
+  </div>
+</header>
+
+<nav>
+  <LinkTo @route="recipes" class="es-button-secondary">
+    Recipes
+  </LinkTo>
+
+  <LinkTo @route="plans" class="es-button-secondary">
+    Plans
+  </LinkTo>
+</nav>
+
+<main>{{outlet}}</main>
